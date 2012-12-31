@@ -1,0 +1,48 @@
+
+.form_review{
+	border:1px dotted #EBEBEB;
+	padding:5px;
+	margin: auto;
+	margin-top:10px;
+	width:350px;
+	overflow:auto;
+}
+.inp_row {
+	overflow:auto;
+	border-bottom:1px dotted #F8F8FF;
+}
+
+.inp, .create_button, SELECT {
+	width:200px;
+	float:right;
+}
+.inp_ta  {
+  width:340px;
+ }
+
+.inp, .inp_ta , SELECT, .create_button{
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 0 2px 2px #EAEAEA;
+	-webkit-box-shadow: 0 0 2px 2px #EAEAEA;
+	box-shadow: 0 0 2px 2px #EAEAEA;
+	text-size:15px;
+	border:1px solid gray;
+	padding:3px;
+	margin-bottom:7px;
+}
+.inp:hover, .inp_ta:hover, .create_button:hover{
+	-moz-box-shadow: 0 0 2px 2px #CCCCCC;
+	-webkit-box-shadow: 0 0 2px 2px #CCCCCC;
+	box-shadow: 0 0 2px 2px #CCCCCC;
+	border:1px solid #4876FF;
+}
+
+.create_button, SELECT  {
+	width:210px;
+}
+
+.create_button:hover {
+	background-color: #4876FF;
+	color: white;
+}
